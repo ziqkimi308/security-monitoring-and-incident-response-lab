@@ -1,0 +1,90 @@
+"Account_Domain","Account_Expires","Account_Name","Allowed_To_Delegate_To",ComputerName,"Display_Name",EventCode,EventType,"Home_Directory","Home_Drive",Keywords,LogName,"Logon_Hours","Logon_ID",Message,"New_UAC_Value","Old_UAC_Value",OpCode,"Password_Last_Set","Primary_Group_ID","Profile_Path",RecordNumber,"SAM_Account_Name","SID_History","Script_Path","Security_ID",SourceName,TaskCategory,Type,"User_Account_Control","User_Parameters","User_Principal_Name","User_Workstations","_raw","_time",eventtype,host,index,linecount,punct,source,sourcetype,"splunk_server","splunk_server_group",tag,"tag::eventtype"
+"WINDOWS-11-IT-P
+WINDOWS-11-IT-P","<never>","ziqkimi
+TestUser123","-","Windows-11-IT-P","<value not set>",4720,0,"<value not set>","<value not set>","Audit Success",Security,All,0x100C36,"A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-1650815080-621735166-753007848-1000
+	Account Name:		ziqkimi
+	Account Domain:		WINDOWS-11-IT-P
+	Logon ID:		0x100C36
+
+New Account:
+	Security ID:		S-1-5-21-1650815080-621735166-753007848-1001
+	Account Name:		TestUser123
+	Account Domain:		WINDOWS-11-IT-P
+
+Attributes:
+	SAM Account Name:	TestUser123
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-",0x15,0x0,Info,"<never>",513,"<value not set>",26910,TestUser123,"-","<value not set>","S-1-5-21-1650815080-621735166-753007848-1000
+S-1-5-21-1650815080-621735166-753007848-1001","Microsoft Windows security auditing.","Process Creation",Information,,"<value not set>","-","<value not set>","06/20/2026 05:40:29.052 PM
+LogName=Security
+EventCode=4720
+EventType=0
+ComputerName=Windows-11-IT-P
+SourceName=Microsoft Windows security auditing.
+Type=Information
+RecordNumber=26910
+Keywords=Audit Success
+TaskCategory=Process Creation
+OpCode=Info
+Message=A user account was created.
+
+Subject:
+	Security ID:		S-1-5-21-1650815080-621735166-753007848-1000
+	Account Name:		ziqkimi
+	Account Domain:		WINDOWS-11-IT-P
+	Logon ID:		0x100C36
+
+New Account:
+	Security ID:		S-1-5-21-1650815080-621735166-753007848-1001
+	Account Name:		TestUser123
+	Account Domain:		WINDOWS-11-IT-P
+
+Attributes:
+	SAM Account Name:	TestUser123
+	Display Name:		<value not set>
+	User Principal Name:	-
+	Home Directory:		<value not set>
+	Home Drive:		<value not set>
+	Script Path:		<value not set>
+	Profile Path:		<value not set>
+	User Workstations:	<value not set>
+	Password Last Set:	<never>
+	Account Expires:		<never>
+	Primary Group ID:	513
+	Allowed To Delegate To:	-
+	Old UAC Value:		0x0
+	New UAC Value:		0x15
+	User Account Control:	
+		Account Disabled
+		'Password Not Required' - Enabled
+		'Normal Account' - Enabled
+	User Parameters:	<value not set>
+	SID History:		-
+	Logon Hours:		All
+
+Additional Information:
+	Privileges		-","2026-06-20T17:40:29.052+0800",,"Windows-11-IT-P",main,49,"//_::._====---=___.===_=_==____.\r\r:\rt_:tt-------\rt","WinEventLog:Security","WinEventLog:Security",F15Kim,,,
