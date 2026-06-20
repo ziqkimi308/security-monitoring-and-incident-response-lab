@@ -83,6 +83,10 @@ The Splunk Universal Forwarder for Windows was installed on **Windows-11-IT-P** 
 
 Once logs were ingestion-ready, customized search queries were constructed in the Search app and saved as reports for active monitoring.
 
+**Example Output:**
+
+![Splunk report showing failed SSH attempts](../screenshots/brute_force_detection.png)
+
 ### Report 1: Ubuntu Failed SSH Attempts
 
 - **Use Case**: Detect active brute-force or credential-stuffing attacks against SSH.

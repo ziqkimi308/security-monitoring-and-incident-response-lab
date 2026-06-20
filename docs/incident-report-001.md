@@ -20,11 +20,17 @@ Brute Force Detection:
 
 Unauthorized User Creation Detection:
 - Splunk Search: index=* EventCode=4720 suspicious.user
-- Result: Account suspicious.user was created by ziqikimi on Windows-11-IT-P at 6:21:41 PM
+- Result: Account suspicious.user was created by ziqkimi on Windows-11-IT-P at 6:21:41 PM
 
 ## Evidence
-- Screenshot 1: brute_force_detection.png — Splunk aggregation showing count of failed SSH attempts from 192.168.0.5.
-- Screenshot 2: unauthorized_user_creation.png — Splunk event details for EventCode 4720, showing the new account suspicious.user and the creator ziqikimi.
+- Screenshot 1: Splunk aggregation showing count of failed SSH attempts from 192.168.0.5.
+
+![Splunk search showing failed SSH attempts aggregated by host](../screenshots/brute_force_detection.png)
+
+- Screenshot 2: Splunk event details for EventCode 4720, showing the new account suspicious.user and the creator ziqkimi.
+
+![Splunk event details for EventCode 4720 showing suspicious.user](../screenshots/unauthorized_user_creation_1.png)
+
 
 ## Root Cause
 - SSH on the Ubuntu VM was exposed to the local network with password authentication enabled.
