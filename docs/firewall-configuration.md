@@ -49,6 +49,10 @@ The Ubuntu Server utilizes **UFW (Uncomplicated Firewall)** for packet filtering
 
 The script used to initialize this configuration is saved at [ufw-rules.sh](../scripts/ufw-rules.sh).
 
+**Example**
+
+![ufw status](../screenshots/ufw_status.png)
+
 ---
 
 ## 2. Windows Defender Firewall Configuration
